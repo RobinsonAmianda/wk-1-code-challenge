@@ -1,18 +1,18 @@
 let grade = 40;
 if(grade>=0 && grade<=39){
-    return (`E`)
+    return `E`
 }
 else if (grade>=40 && grade<=48){
-    return D
+    return `D`
 }
 else if(grade>=49 && grade<=59){
-return C
+return `C`
 }
 else if(grade>=60 && grade<=79){
-return B
+return `B`
 }
 else if(grade>79 && grade<=100){
-return A
+return `A`
 }
 else if(grade<0 || grade>100){
 return `invalid marks`
