@@ -2,6 +2,9 @@ let speed = 70
 if(speed <70){
 return `Ok`
 }
+else if(speed === 70){
+    return `points:still ok`
+    }
 else if(speed === 75){
 return `points:1`
 }
